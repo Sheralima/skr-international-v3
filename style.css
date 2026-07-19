@@ -1,1 +1,237 @@
+/* ===========================
+   SKR INTERNATIONAL V3
+=========================== */
 
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#f5f7fb;
+color:#333;
+line-height:1.6;
+}
+
+/* Navbar */
+
+.navbar{
+padding:15px 0;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.navbar-brand{
+font-size:28px;
+font-weight:bold;
+}
+
+.nav-link{
+font-size:17px;
+margin-left:10px;
+}
+
+.nav-link:hover{
+color:#ffd43b !important;
+}
+
+/* Hero */
+
+.hero{
+padding:100px 0;
+background:linear-gradient(135deg,#0d6efd,#003b8e);
+color:#fff;
+}
+
+.hero h1{
+font-size:55px;
+font-weight:bold;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+.hero img{
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.3);
+}
+
+/* Buttons */
+
+.btn{
+border-radius:30px;
+padding:12px 30px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+/* Carousel */
+
+.carousel img{
+height:450px;
+object-fit:cover;
+border-radius:15px;
+}
+/* ===========================
+   About Section
+=========================== */
+
+#about{
+padding:80px 0;
+}
+
+#about img{
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+#about h2{
+font-weight:bold;
+margin-bottom:20px;
+}
+
+/* ===========================
+   Investment Plans
+=========================== */
+
+#plans{
+padding:80px 0;
+}
+
+.card{
+border:none;
+border-radius:20px;
+overflow:hidden;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 15px 35px rgba(0,0,0,.2);
+}
+
+.card img{
+height:220px;
+object-fit:cover;
+}
+
+.card h3,
+.card h4{
+font-weight:bold;
+}
+
+/* ===========================
+   Why Choose Us
+=========================== */
+
+section h2{
+font-weight:bold;
+}
+
+section h1{
+font-size:55px;
+}
+
+/* ===========================
+   Statistics
+=========================== */
+
+.bg-primary h2{
+font-size:40px;
+font-weight:bold;
+}
+
+/* ===========================
+   Testimonials
+=========================== */
+
+.card p{
+margin-bottom:10px;
+}
+
+/* ===========================
+   Contact
+=========================== */
+
+input,
+textarea{
+border-radius:12px !important;
+}
+
+/* ===========================
+   Footer
+=========================== */
+
+footer{
+font-size:16px;
+}
+
+/* ===========================
+   Responsive
+=========================== */
+
+@media(max-width:992px){
+
+.hero{
+text-align:center;
+padding:60px 0;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.hero img{
+margin-top:30px;
+}
+
+.carousel img{
+height:250px;
+}
+
+.navbar-brand{
+font-size:22px;
+}
+
+}
+
+@media(max-width:576px){
+
+.hero h1{
+font-size:32px;
+}
+
+.btn{
+width:100%;
+margin-top:10px;
+}
+
+.card img{
+height:180px;
+}
+
+.bg-primary h2{
+font-size:28px;
+}
+
+footer{
+font-size:14px;
+}
+
+}
