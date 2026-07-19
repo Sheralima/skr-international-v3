@@ -1,33 +1,26 @@
-// Firebase SDK
 import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
 
 import { getAuth } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-auth.js";
 
 import { getFirestore } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-firestore.js";
 
-// Firebase Configuration
-
 const firebaseConfig = {
 
-  apiKey: "YOUR_API_KEY",
+  apiKey: "AIzaSyARX24b0EnCmh-3WcYfy9wtgj5vpHUNEPQ",
 
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
+  authDomain: "sherry-project-1214.firebaseapp.com",
 
-  projectId: "YOUR_PROJECT_ID",
+  projectId: "sherry-project-1214",
 
-  storageBucket: "YOUR_PROJECT.appspot.com",
+  storageBucket: "sherry-project-1214.firebasestorage.app",
 
-  messagingSenderId: "YOUR_SENDER_ID",
+  messagingSenderId: "692003406873",
 
-  appId: "YOUR_APP_ID"
+  appId: "1:692003406873:web:1addf2cb2437cfe1761688"
 
 };
 
-// Initialize Firebase
-
 const app = initializeApp(firebaseConfig);
-
-// Services
 
 const auth = getAuth(app);
 
